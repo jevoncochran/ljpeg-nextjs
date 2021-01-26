@@ -1,0 +1,21 @@
+{
+  "name": "ljpeg-nextjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": "https://github.com/jevoncochran/ljpeg-nextjs.git",
+  "author": "Jevon Cochran <jevon.cochran@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "emailjs-com": "^2.6.4",
+    "next": "^10.0.5",
+    "next-images": "^1.7.0",
+    "node-sass": "4.14.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
