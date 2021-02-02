@@ -8,6 +8,7 @@ import { chicago } from "../data/places/chicago";
 import { colombia } from "../data/places/colombia";
 import { brazil } from "../data/places/brazil";
 import { dr } from "../data/places/dr";
+import { cuba } from "../data/places/cuba";
 import { partyNoire } from "../data/events/partyNoire";
 import { tdeXmas2018 } from "../data/events/tdeXmas2018";
 import { futureHood } from "../data/events/futureHood";
@@ -54,6 +55,11 @@ const MasonLayout = (props) => {
         setImageArray(dr);
         setLinkHref("/travel/[place]/[imageId]");
         setLinkAs("/travel/dominican-republic");
+        break;
+      case "Cuba":
+        setImageArray(cuba);
+        setLinkHref("/travel/[place]/[imageId]");
+        setLinkAs("/travel/cuba");
         break;
       case "Party-Noire":
         setImageArray(partyNoire);

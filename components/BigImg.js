@@ -6,6 +6,7 @@ import { chicago } from "../data/places/chicago";
 import { colombia } from "../data/places/colombia";
 import { brazil } from "../data/places/brazil";
 import { dr } from "../data/places/dr";
+import { cuba } from "../data/places/cuba";
 import { partyNoire } from "../data/events/partyNoire";
 import { tdeXmas2018 } from "../data/events/tdeXmas2018";
 import { dykeMarch2018 } from "../data/events/dykeMarch2018";
@@ -62,6 +63,9 @@ const BigImg = (props) => {
         break;
       case "Dominican-Republic":
         setImageArray(dr);
+        break;
+      case "Cuba":
+        setImageArray(cuba);
         break;
       case "Party-Noire":
         setImageArray(partyNoire);

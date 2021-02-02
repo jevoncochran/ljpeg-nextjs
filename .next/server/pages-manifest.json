@@ -2,10 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
-  "/events": "pages/events.js",
-  "/": "pages/index.js",
-  "/travel": "pages/travel.js",
-  "/travel/[place]": "pages/travel/[place].js",
-  "/travel/[place]/[imageId]": "pages/travel/[place]/[imageId].js"
+  "/portraits": "pages/portraits.js",
+  "/events/[event]/[imageId]": "pages/events/[event]/[imageId].js"
 }

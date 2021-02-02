@@ -2,6 +2,7 @@ import chicago9 from "../../public/assets/images/places/chicago/chicago9.jpg";
 import colombia2 from "../../public/assets/images/places/colombia/colombia2.jpg";
 import brazil1 from "../../public/assets/images/places/brazil/brazil1.jpg";
 import DR7 from "../../public/assets/images/places/dr/DR7.jpg";
+import cuba2 from "../../public/assets/images/places/cuba/cuba2.jpg";
 
 export const travel = [
   {
@@ -33,5 +34,12 @@ export const travel = [
     alt: "Dominican Republic",
     collection: "Dominican-Republic",
     directory: "dominican-republic",
+  },
+  {
+    image: cuba2,
+    title: "Cuba",
+    alt: "Cuba",
+    collection: "Cuba",
+    directory: "cuba",
   },
 ];

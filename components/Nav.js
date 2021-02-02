@@ -46,6 +46,9 @@ const Nav = () => {
         <Link href="/about">
           <a className={styles["nav-page"]}>About</a>
         </Link>
+        <Link href="/contact">
+          <a className={styles["nav-page"]}>Contact</a>
+        </Link>
       </div>
     </div>
   );
