@@ -1,12 +1,12 @@
 // import App from "next/app";
+import SiteProvider from "../context/siteContext";
 
-const App = () => {
-    return (
-        <Layout>
-            
-        </Layout>
-    )
-}
+const App = ({ Component, pageProps }) => {
+  return (
+    <SiteProvider>
+      <Component {...pageProps} />
+    </SiteProvider>
+  );
+};
 
 export default App;
-

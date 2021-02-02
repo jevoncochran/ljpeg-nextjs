@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Nav from "./Nav";
 
 const Layout = (props) => {
   return (
@@ -10,17 +11,20 @@ const Layout = (props) => {
           rel="stylesheet"
         />
       </Head>
-      {props.children}
-      <style jsx global>
-        {`
-          * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: "Amatic SC", cursive;
-          }
-        `}
-      </style>
+      <div>
+        <Nav />
+        {props.children}
+        <style jsx global>
+          {`
+            * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+              font-family: "Amatic SC", cursive;
+            }
+          `}
+        </style>
+      </div>
     </div>
   );
 };

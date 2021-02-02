@@ -11,6 +11,7 @@
   "author": "Jevon Cochran <jevon.cochran@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
     "emailjs-com": "^2.6.4",
     "next": "^10.0.5",
     "next-images": "^1.7.0",

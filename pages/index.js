@@ -1,13 +1,15 @@
+import { useEffect, useContext } from "react";
 import ComingSoon from "../components/ComingSoon";
 import styles from "../styles/Home.module.scss";
 import Layout from "../components/Layout";
+import { SiteContext } from "../context/siteContext";
 
 const Home = () => {
-  // const { activateHome } = useContext(PageContext);
+  const { activateHome } = useContext(SiteContext);
 
-  // useEffect(() => {
-  //   activateHome();
-  // }, [activateHome]);
+  useEffect(() => {
+    activateHome();
+  }, [activateHome]);
 
   return (
     <Layout>
