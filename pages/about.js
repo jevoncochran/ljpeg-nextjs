@@ -27,7 +27,7 @@ const About = () => {
           </p>
           <p className={styles["about-text"]}>
             Photography is my way of connecting with the new places i find
-            myself. I focus my eye on the things that bring me a sense of
+            myself in. I focus my eye on the things that bring me a sense of
             connection and joy: Black people and our culture, my family, and
             travelling, to name a few. I capture fleeting moments of energy,
             movement, brilliance, joy.

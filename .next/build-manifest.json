@@ -24,15 +24,15 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/events/[event]/[imageId]": [
+    "/about": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/events/[event]/[imageId].js"
+      "static/chunks/pages/about.js"
     ],
-    "/portraits": [
+    "/events": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/portraits.js"
+      "static/chunks/pages/events.js"
     ]
   },
   "ampFirstPages": []

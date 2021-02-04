@@ -28,12 +28,12 @@ const MasonLayout = (props) => {
     switch (collection) {
       case "portraits":
         setImageArray(portraits);
-        setLinkHref("/portraits/[id]");
+        setLinkHref("/portraits/[ImageId]");
         setLinkAs("portraits");
         break;
       case "street":
         setImageArray(street);
-        setLinkHref("/street/[id]");
+        setLinkHref("/street/[ImageId]");
         setLinkAs("street");
         break;
       case "Chicago":
